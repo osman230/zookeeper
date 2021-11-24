@@ -1,24 +1,22 @@
 {
-  "name": "zookeeper",
+  "name": "vote-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Back-end APIs for a voting app.",
   "main": "server.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "mysql2": "^2.3.3",
+    "node.js": "^0.0.1-security"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/osman230/zookeeper.git"
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/osman230/zookeeper/issues"
-  },
-  "homepage": "https://github.com/osman230/zookeeper#readme",
-  "dependencies": {
-    "express": "^4.17.1"
+  "devDependencies": {
+    "jest": "^26.6.3"
   }
 }
